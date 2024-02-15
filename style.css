@@ -7,8 +7,31 @@
     font-weight: 400;
 }
 .wrapper {
-    max-width: 1440px;
+    min-width: 1440px;
 }
 .container {
-    max-width: 1140px;
+    min-width: 1140px;
 }
+.redBanner {
+    background: red;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.redBanner a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .searchField {
+    border: 1px solid black;
+    padding: 10px;
+}
+
